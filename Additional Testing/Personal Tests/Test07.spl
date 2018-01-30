@@ -1,0 +1,13 @@
+Test:
+
+DECLARATIONS
+   
+  a OF TYPE CHARACTER;
+	
+CODE
+
+  1 -> a;
+  WRITE(a);
+  NEWLINE
+
+ENDP Test.

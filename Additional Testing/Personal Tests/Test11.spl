@@ -1,0 +1,13 @@
+Test:
+
+DECLARATIONS
+   
+  a OF TYPE INTEGER;
+	
+CODE
+
+  4 * 0 -> a;
+  WRITE(a);
+  NEWLINE
+
+ENDP Test.

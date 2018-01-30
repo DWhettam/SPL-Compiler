@@ -1,0 +1,18 @@
+TEST  		DESCRIPTION						EXPECTED OUTCOME
+Test01		Assigning a char to an int				Error
+Test02		Assigning a char to an int within an expression		Error
+Test03		Assigning a real to an int				Error
+Test04		Assigning a real to an int within an expression		Error
+Test05		Assigning an int to a real				Succesful compile
+Test06		Assigning an int to a real within an expression		Succesful compile
+Test07		Assigning an int to a char				Error
+Test08		Add 0 optimisation					Succesful compile, 0 removed
+Test09		Subtract 0 optimisation					Succesful compile, 0 removed
+Test10		Multiply by 1 optimisation				Succesful compile, 1 removed
+Test11		Multiply by 0 optimisation				Succesful compile, resolved to 0
+Test12		Divide by 1 optimisation				Succesful compile, 1 removed
+Test13		Division numerator = 0					Succesful compile, resolved to 0
+Test14		Division by 0						Error
+Test15		Above optimisations within large expression		Succesful compile, optimisations applied, correct result
+Test16		Writing undeclared identifier				Error
+Test16		Reading undeclared identifier				Error

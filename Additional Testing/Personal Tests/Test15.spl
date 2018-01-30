@@ -1,0 +1,13 @@
+Test:
+
+DECLARATIONS
+   
+  a OF TYPE INTEGER;
+	
+CODE
+
+  1 / 1 * 4 * 1 + 0 / 3 * 1 * 0 -> a;
+  WRITE(a);
+  NEWLINE
+
+ENDP Test.

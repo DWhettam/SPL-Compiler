@@ -1,0 +1,12 @@
+Test:
+
+DECLARATIONS
+   
+  a OF TYPE INTEGER;
+	
+CODE
+
+  READ(b);
+  NEWLINE
+
+ENDP Test.
