@@ -1,12 +1,12 @@
 # SPL-Compiler
 ---------------------------------------------------------------------------------------------------------------------------------
 
-The zip file contains the following files:
-bnf.txt
-spl.l
-spl.y
-spl.c
-Daniel-results.txt
+The zip file contains the following files:  
+bnf.txt  
+spl.l  
+spl.y  
+spl.c  
+Daniel-results.txt  
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
