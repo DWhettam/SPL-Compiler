@@ -1,15 +1,4 @@
 # SPL-Compiler
----------------------------------------------------------------------------------------------------------------------------------
-
-The zip file contains the following files:  
-	bnf.txt  
-	spl.l  
-	spl.y  
-	spl.c  
-	Daniel-results.txt  
-
----------------------------------------------------------------------------------------------------------------------------------
-
 The SPL language assumes the following:
 - NOT conditionals within an if statement apply to the entire conditional 
 	(e.g. IF NOT a < 1 AND a > -3 THEN ... ENDIF would be treated as IF NOT (a < 1 AND a > -3) THEN ... ENDIF)
